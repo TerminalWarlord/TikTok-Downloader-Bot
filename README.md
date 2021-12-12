@@ -32,7 +32,7 @@
 - [TerminalWarlord](https://github.com/TerminalWarlord)
 ### Show some :heart: and :star: the repo to support the project
 
-[![GitHub stars](https://img.shields.io/github/stars/TerminalWarlord/tiktok-downloader-bot.svg?style=social&label=Star)](https://github.com/TerminalWarlord/) ![GitHub followers](https://img.shields.io/github/followers/TerminalWarlord.svg?style=social&label=Follow)
+[![GitHub stars](https://img.shields.io/github/stars/TerminalWarlord/Tiktok-Downloader-Bot.svg?style=social&label=Star)](https://github.com/TerminalWarlord/) ![GitHub followers](https://img.shields.io/github/followers/TerminalWarlord.svg?style=social&label=Follow)
 
 [![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-orange)](https://t.me/JayBeeBots)
 ![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/TerminalWarlord/TikTok-Downloader-Bot)
