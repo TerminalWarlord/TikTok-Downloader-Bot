@@ -19,7 +19,7 @@ from progress_bar import progress, TimeFormatter, humanbytes
 from dotenv import load_dotenv
 
 load_dotenv()
-bot_token = os.environ.get('BOTOKEN')
+bot_token = os.environ.get('BOT_TOKEN')
 workers = int(os.environ.get('WORKERS'))
 api = int(os.environ.get('API_KEY'))
 hash = os.environ.get('API_HASH')
