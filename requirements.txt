@@ -1,0 +1,6 @@
+pyrogram
+requests
+tgcrypto
+pymongo[srv]
+python-dotenv
+bs4
