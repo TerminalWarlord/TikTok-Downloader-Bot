@@ -1,6 +1,7 @@
 
 
 # TikTok Downloader Bot
+A Telegram bot to download TikTok videos without any watermark.
 <div align="center">
 <img alt="Python" src="https://img.shields.io/badge/python-%2314354C.svg?&style=for-the-badge&logo=python&logoColor=white"/>
 <img alt="PyCharm" src="https://img.shields.io/badge/PyCharm-000000.svg?&style=for-the-badge&logo=PyCharm&logoColor=white"/>
@@ -8,14 +9,17 @@
 </div>
 <div align="center">
 <img alt="Heroku" src="https://img.shields.io/badge/Heroku-purple?&style=for-the-badge&logoColor=white&logo=heroku"/>
-<img alt="Heroku" src="https://img.shields.io/badge/Telegram-blue?&style=for-the-badge&logoColor=white&logo=telegram"/>
+<img alt="Telegram" src="https://img.shields.io/badge/Telegram-blue?&style=for-the-badge&logoColor=white&logo=telegram"/>
 </div>
- A Telegram bot to download TikTok videos without any watermark.
+ 
 
 
 ### Host on Heroku
 
 <p><a href="https://heroku.com/deploy?template=https://github.com/TerminalWarlord/TikTok-Downloader-Bot/tree/master"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku"/></a></p>
+
+Youtube: [Deployment Tutorial](https://youtu.be/LOK3lfJ9ous)<br>
+Demo: [JayBee TikTok Downloader](https://t.me/JayBeeTikTokBot)
 
 ## Configuring Environments
 - `API_HASH` : Your Telegram APP HASH, get this from https://my.telegram.org
