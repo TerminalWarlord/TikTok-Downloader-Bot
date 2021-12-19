@@ -58,15 +58,27 @@ def tiktok_dl(client, message):
     a = app.send_message(chat_id=message.chat.id,
                          text='__Downloading File to the Server__',
                          parse_mode='md')
-    link = "https://" + message.text.split("https://")[-1].split("http://")[-1].split(" ")[0]
+    link = re.findall(r'\bhttps?://.*[(tiktok|douyin)]\S+', message.text)[0]
     link = link.split("?")[0]
-    message_bytes = link.encode('ascii')
-    base64_bytes = base64.b64encode(message_bytes)
-    link = base64_bytes.decode('ascii')
-    link = f"https://jaybee-tiktok-dl.vercel.app/{link}"
-    r = requests.get(link, timeout=300).json()[0]['mir1']
+
+
+
+    
+    params = {
+      "link": link
+    }
+    headers = {
+      'x-rapidapi-host': "tiktok-info.p.rapidapi.com",
+      'x-rapidapi-key': "f9d65af755msh3c8cac23b52a5eep108a33jsnbf7de971bb72"
+    }
+    
+    ### Get your Free TikTok API from https://rapidapi.com/TerminalWarlord/api/tiktok-info/
+    #Using the default one can stop working any moment 
+    
+    api = f"https://tiktok-info.p.rapidapi.com/dl/"
+    r = requests.get(api, params=params, headers=headers).json()['videoLinks']['download']
     directory = str(round(time.time()))
-    filename = str(message.chat.id)+'.mp4'
+    filename = str(int(time.time()))+'.mp4'
     size = int(requests.head(r).headers['Content-length'])
     total_size = "{:.2f}".format(int(size) / 1048576)
     try:
