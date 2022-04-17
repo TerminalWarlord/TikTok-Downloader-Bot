@@ -34,7 +34,7 @@ def start(client, message):
     kb = [[InlineKeyboardButton('Channel 🛡', url=chnnl),InlineKeyboardButton('Repo 🔰', url="https://github.com/TerminalWarlord/TikTok-Downloader-Bot/")]]
     reply_markup = InlineKeyboardMarkup(kb)
     app.send_message(chat_id=message.from_user.id, text=f"Hello there, I am **TikTok Downloader Bot**.\nI can download TikTok video without Watermark.\n\n"
-                          "__**Developer :**__ __@JayBeeDev__\n"
+                          "__**Developer :**__ __@Sithumj__\n"
                           "__**Language :**__ __Python__\n"
                           "__**Framework :**__ __🔥 Pyrogram__",
                      parse_mode='md',
