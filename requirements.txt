@@ -1,4 +1,4 @@
-pyrogram
+Pyrogram==1.1.9
 requests
 tgcrypto
 pymongo[srv]
