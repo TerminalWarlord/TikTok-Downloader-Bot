@@ -1,11 +1,11 @@
-version: "3.10"
+version: "3.11"
 services:
   worker:
     build: .
     environment:
-      - API_HASH=${API_HASH}
-      - API_KEY=${API_KEY}
-      - BOT_TOKEN=${BOT_TOKEN}
-      - WORKERS=${WORKERS}
-      - CHANNEL_URL=${CHANNEL_URL}
-      - BOT_URL=${BOT_URL}
+      - API_HASH=${66b5cf9dcb297e159b05d5b88f9df7e7}
+      - API_KEY=${28366508}
+      - BOT_TOKEN=${6670993967:AAF3zW5hMt5xyc0kKODu88WS1m95vSEcHSc}
+      - WORKERS=${4}
+      - CHANNEL_URL=${t.me/tktktkddd_bot}
+      - BOT_URL=${tktktkddd}
