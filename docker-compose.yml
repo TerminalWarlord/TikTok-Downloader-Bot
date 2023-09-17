@@ -4,12 +4,7 @@ services:
     build: .
     environment:
       - API_HASH=${66b5cf9dcb297e159b05d5b88f9df7e7}
-      - API_KEY=${MIIBCgKCAQEAyMEdY1aR+sCR3ZSJrtztKTKqigvO/vBfqACJLZtS7QMgCGXJ6XIR
-yy7mx66W0/sOFa7/1mAZtEoIokDP3ShoqF4fVNb6XeqgQfaUHd8wJpDWHcR2OFwv
-plUUI1PLTktZ9uW2WE23b+ixNwJjJGwBDJPQEQFBE+vfmH0JP503wr5INS1poWg/
-j25sIWeYPHYeOrFp/eXaqhISP6G+q2IeTaWTXpwZj4LzXq5YOpk4bYEQ6mvRq7D1
-aHWfYmlEGepfaYR8Q0YqvvhYtMte3ITnuSJs171+GDqpdKcSwHnd6FudwGO4pcCO
-j4WcDuXc2CTHgH8gFTNhp/Y8/SpDOhvn9QIDAQAB}
+      - API_KEY=${28366508}
       - BOT_TOKEN=${6670993967:AAF3zW5hMt5xyc0kKODu88WS1m95vSEcHSc}
       - WORKERS=${4}
       - CHANNEL_URL=${t.me/tktktkddd_bot}
